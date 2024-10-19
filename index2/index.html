@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <header>
+
+        <!-- Heading  -->
+        <div class="header">
+            <h4>Valuation Data Management System</h4>
+
+            <h5 class="sider">| Welcome. Coordinator</h5>
+        </div>
+    </header>
+
+    <!-- Side bar  -->
+    <div class="row">
+        <div class="col-md-2 side-bar">
+            <ul>
+                <li>
+                    <h5>Dashboard</h5>
+                </li>
+                <li>
+                    <h5>Bank/Company</h5>
+                </li>
+                <li>
+                    <h5>Case Details</h5>
+                </li>
+                <li>
+                    <h5>Payments</h5>
+                </li>
+                <li>
+                    <h5>Reports</h5>
+                </li>
+                <li>
+                    <h5>Design</h5>
+                </li>
+            </ul>
+        </div>
+
+        <div class="col-md-9 main-bar">
+
+            <div class="row">
+
+                <!-- Labels  -->
+                <div class="col-4 content">
+                    <label for="Billing">Billing Type *</label> <br>
+                    <label for="Year">Enter Case ID *</label> <br>
+                    <label for="PVPL">PVPL Bank Account *</label> <br> <br>
+                    <label for="Billing">Billing Office *</label> <br>
+                    <label for="Client">Client Location *</label> <br>
+                    <label for="Number">SAC/HSN Number *</label> <br>
+                </div>
+
+                <!-- Form  -->
+                <div class="col-8 content2">
+
+                    <input type="radio" name="Billing"> Single
+
+                    <input type="radio" name="Billing"> Double
+
+                    <br>
+
+                    <select name="Year">
+                        <option value="selection year">Select case year</option>
+                        <option value="2024">2024</option>
+                        <option value="2023">2023</option>
+                        <option value="2022">2022</option>
+                        <option value="2021">2021</option>
+                        <option value="2020">2020</option>
+                        <option value="2019">2019</option>
+                        <option value="2018">2018</option>
+                        <option value="2017">2017</option>
+                        <option value="2016">2016</option>
+                        <option value="2015">2015</option>
+                        <option value="2014">2014</option>
+                    </select>
+
+                    <select name="Month" id="">
+                        <option value="selection month">Select case month</option>
+                        <option value="jan">Jan</option>
+                        <option value="feb">Feb</option>
+                        <option value="march">March</option>
+                        <option value="april">April</option>
+                        <option value="may">May</option>
+                        <option value="june">June</option>
+                        <option value="july">July</option>
+                        <option value="aug">Aug</option>
+                        <option value="sep">Sep</option>
+                        <option value="oct">Oct</option>
+                        <option value="nov">Nov</option>
+                        <option value="dec">Dec</option>
+                    </select>
+
+                    <input type="text" placeholder="Case ID">
+
+                    <select name="PVPL">
+                        <option value="selectionbank">Select PVPL Bank Account</option>
+                        <option value="ubl">United Bank Limited</option>
+                        <option value="bop">Bank of Punjab</option>
+                        <option value="alfalah">Bank AlFalah</option>
+                        <option value="meezan">Meezan Bank Limited</option>
+                        <option value="alhabib">Bank AL Habib Limited</option>
+                        <option value="hbl">Habib Bank Limited</option>
+                        <option value="faysal">Faysal Bank</option>
+                        <option value="allied">Allied Bank Limited</option>
+                        <option value="askari">Askari Bank Limited</option>
+                        <option value="mobilink">Mobilink Bank</option>
+                    </select>
+
+                    <h6 class="only"> &#9888; Details of the selected Bank Account will be displayed on Bill</h6>
+
+                    <select name="Billing" id="">
+                        <option value="selectionloc">Select Billing Location</option>
+                        <option value="ldh">Lodhran</option>
+                        <option value="bwp">Bahawalpur</option>
+                        <option value="mtn">Multan</option>
+                        <option value="lhr">Lahore</option>
+                        <option value="krh">Karachi</option>
+                    </select>
+
+                    <br>
+
+                    <select name="Client" id="">
+                        <option value="selectionloc">Select Billing Location</option>
+                        <option value="ldh">Lodhran</option>
+                        <option value="bwp">Bahawalpur</option>
+                        <option value="mtn">Multan</option>
+                        <option value="lhr">Lahore</option>
+                        <option value="krh">Karachi</option>
+                    </select>
+
+                    <br>
+
+                    <select name="Number" id="">
+                        <option value="associate">Associated with Bank</option>
+                        <option value="one">98876</option>
+                        <option value="two">46746</option>
+                        <option value="three">89568</option>
+                        <option value="four">95785</option>
+                        <option value="five">67864</option>
+                    </select>
+
+                    <h6 class="only"> &#9888; Details of the selected Bank Account will be displayed on Bill</h6>
+
+                    <input type="checkbox"> Waive off GST <br>
+
+                    <div class="btn">Search</div>
+                    <div class="btn btn2">Reset</div>
+
+                </div>
+                <h6 class="foot">Support Email: khizar@gmail.com | Contact no : +923020549259</h6>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
